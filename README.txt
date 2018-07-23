@@ -1,1 +1,1 @@
-awk is a programming language traditionally used for data extraction and reporting. I have used it as an SQL surrogate for extracting statistical properties like ensemble averages. Attached is a script for averaging time-series quantities from various files having different features.
+Find attached the plots for the data incubator challenge.
