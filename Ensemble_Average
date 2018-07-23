@@ -1,5 +1,0 @@
-#/!/bin/bash
-for file in File*; do awk 'BEGIN {sum = 0.0;sumsq = 0.0;sum1=0.0;line =0} NR>1000 {sum+=$5;sumsq+=$5*$5;sum1+=$3;line++} END {print sum1/line,sum/line,sqrt(sumsq/line - (sum/line)**2)}'  $file >> visc5.dat; done
-sort -gk 1 visc5.dat > Ensemble_Average.dat
-rm visc5.dat
-echo "Program has successfully run!"
